@@ -1,5 +1,5 @@
 import AssistantBox from "../components/AssistantBox";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import assistant from "../assets/assistant.svg";
 import { motion } from "framer-motion";
 
