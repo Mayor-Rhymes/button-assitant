@@ -13,10 +13,11 @@ export default function AssistantBox() {
       className="
     h-56 w-56 bg-white opacity-40 group shadow-xl rounded-full fixed bottom-2 left-2 flex items-center flex-col justify-center"
     >
-      <img src={assistant} alt="assistant" width={100} height={100}/>
+      <iframe src="https://giphy.com/embed/uA7FDa2VLgntHGhvrQ" frameBorder="0" className="w-16 h-16"></iframe>
+      
       <p>Hi, I am your assitant</p>
       {/* <p className="hidden group-hover:block text-center">The assistant is being hovered over</p> */}
-
+      
     </motion.div>,
     document.body
   );
