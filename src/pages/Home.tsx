@@ -1,6 +1,6 @@
 import AssistantBox from "../components/AssistantBox";
 import { useState } from "react";
-import assistant from "../assets/assistant.svg";
+
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -48,9 +48,13 @@ export default function Home() {
 
   return (
     <main className="min-h-screen w-full items-center flex flex-col py-20 gap-10 bg-black">
-      <h3 className="text-3xl font-bold text-white text-center">These are the buttons we offer.</h3>
+      <h3 className="text-3xl font-bold text-white text-center">
+        These are the buttons we offer.
+      </h3>
 
-      <p className="text-xl font-bold text-center text-white">Hover the mouse on the buttons to see what they do.</p>
+      <p className="text-xl font-bold text-center text-white">
+        Hover the mouse on the buttons to see what they do.
+      </p>
 
       <div className="relative">
         <button
@@ -76,7 +80,12 @@ export default function Home() {
             className="
     h-96 w-96 p-5 bg-white group shadow-xl rounded-full absolute flex items-center flex-col justify-center"
           >
-            <iframe src="https://giphy.com/embed/uA7FDa2VLgntHGhvrQ" frameBorder="0" className="w-16 h-16"></iframe>
+            <iframe
+              title="assistant"
+              src="https://giphy.com/embed/uA7FDa2VLgntHGhvrQ"
+              frameBorder="0"
+              className="w-16 h-16"
+            ></iframe>
             <p>
               This is the get started button and it is responsible for helping
               you get started with all the features we offer.
@@ -109,7 +118,12 @@ export default function Home() {
             className="
     h-96 w-96 p-5 bg-white group shadow-xl rounded-full absolute flex items-center flex-col justify-center"
           >
-            <iframe src="https://giphy.com/embed/uA7FDa2VLgntHGhvrQ" frameBorder="0" className="w-16 h-16"></iframe>
+            <iframe
+              title="assistant"
+              src="https://giphy.com/embed/uA7FDa2VLgntHGhvrQ"
+              frameBorder="0"
+              className="w-16 h-16"
+            ></iframe>
             <p>
               This is the learn button and it is responsible for helping you
               learn about all the features we offer.
@@ -141,7 +155,12 @@ export default function Home() {
             className="
     h-96 w-96 p-5 bg-white group shadow-xl rounded-full absolute flex items-center flex-col justify-center"
           >
-            <iframe src="https://giphy.com/embed/uA7FDa2VLgntHGhvrQ" frameBorder="0" className="w-16 h-16"></iframe>
+            <iframe
+              title="assitant"
+              src="https://giphy.com/embed/uA7FDa2VLgntHGhvrQ"
+              frameBorder="0"
+              className="w-16 h-16"
+            ></iframe>
             <p>
               This is the activate membership button and it is responsible for
               activating your payment plan.
