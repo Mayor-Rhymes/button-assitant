@@ -78,7 +78,7 @@ export default function Home() {
             drag={true}
             dragConstraints={{ left: -100, right: 100 }}
             className="
-    h-96 w-96 p-5 bg-white group shadow-xl rounded-full absolute flex items-center flex-col justify-center"
+    z-20 p-5 group absolute flex items-center gap-4 text-white"
           >
             <iframe
               title="assistant"
@@ -87,8 +87,7 @@ export default function Home() {
               className="w-16 h-16"
             ></iframe>
             <p>
-              This is the get started button and it is responsible for helping
-              you get started with all the features we offer.
+              This is the get started button.
             </p>
           </motion.div>
         )}
@@ -116,7 +115,7 @@ export default function Home() {
             drag={true}
             dragConstraints={{ left: -100, right: 100 }}
             className="
-    h-96 w-96 p-5 bg-white group shadow-xl rounded-full absolute flex items-center flex-col justify-center"
+            z-20 p-5 group absolute left-10 top-0 flex items-center gap-4 text-white"
           >
             <iframe
               title="assistant"
@@ -125,13 +124,12 @@ export default function Home() {
               className="w-16 h-16"
             ></iframe>
             <p>
-              This is the learn button and it is responsible for helping you
-              learn about all the features we offer.
+              This is the learn button.
             </p>
           </motion.div>
         )}
       </div>
-      <div>
+      <div className="relative">
         <button
           className="rounded-md px-4 py-4 bg-white hover:scale-125 delay-200 duration-200"
           onMouseOver={() => hoverAssistant("ACTIVATE")}
@@ -153,7 +151,7 @@ export default function Home() {
             drag={true}
             dragConstraints={{ left: -100, right: 100 }}
             className="
-    h-96 w-96 p-5 bg-white group shadow-xl rounded-full absolute flex items-center flex-col justify-center"
+            z-20 p-5 group absolute left-10 flex items-center gap-4 text-white"
           >
             <iframe
               title="assitant"
@@ -162,8 +160,7 @@ export default function Home() {
               className="w-16 h-16"
             ></iframe>
             <p>
-              This is the activate membership button and it is responsible for
-              activating your payment plan.
+              This is the activate membership button.
             </p>
           </motion.div>
         )}

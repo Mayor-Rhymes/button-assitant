@@ -11,7 +11,7 @@ export default function AssistantBox() {
       drag={true}
       dragConstraints={{ left: -100, right: 100 }}
       className="
-    h-56 w-56 bg-white opacity-40 group shadow-xl rounded-full fixed bottom-2 left-2 flex items-center flex-col justify-center"
+    group gap-4 text-white fixed bottom-2 left-2 flex items-center justify-center"
     >
       <iframe title="assistant" src="https://giphy.com/embed/uA7FDa2VLgntHGhvrQ" className="w-16 h-16"></iframe>
       
